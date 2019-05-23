@@ -22,7 +22,6 @@ public class View
         initialize();
         reset.setBackground(Color.GRAY);
         reset.setFocusPainted(false);  //This does that thing when you click no highlight afterwards Doni
-        reset.setFont(new Font("Tahoma", Font.BOLD, 12));
 
         for (int i=0; i < 3; i++)
         {
@@ -57,7 +56,7 @@ public class View
         TicTacToeFrame.add(gamePanel, BorderLayout.NORTH);
         TicTacToeFrame.add(options, BorderLayout.CENTER);
         TicTacToeFrame.add(messages, BorderLayout.SOUTH);
-        playerTurn.setText("Lojtari 1 lëvizë, shenja: 'X'");
+        playerTurn.setText("Lojtari 1 lÃ«vizÃ«, shenja: 'X'");
         messages.add(playerTurn);   // Kemi shtuar fushen private te Text-Area ne South
 
         for(int row = 0; row<3 ;row++)
@@ -125,6 +124,6 @@ public class View
                 grid[row][column].setEnabled(true);  //mundesojme klikimin e butonave
             }
         }
-        playerTurn.setText("Lojtari 1 lëvizë, shenja: 'X'"); // Kjo thirret gjdo here si veprim statik
+        playerTurn.setText("Lojtari 1 lÃ«vizÃ«, shenja: 'X'"); // Kjo thirret gjdo here si veprim statik
     }
 }
