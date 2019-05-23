@@ -21,7 +21,7 @@ public class View
         // Pjesa: Layout dhe Butonat!
         initialize();
         reset.setBackground(Color.GRAY);
-        reset.setFocusPainted(false);  //This does that thing when you click no highlight afterwards Doni
+        reset.setFocusPainted(false);  // Sigurohet qe nuk kemi 'highlight' pas klikimit te ndonje butoni
 
         for (int i=0; i < 3; i++)
         {
