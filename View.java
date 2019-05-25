@@ -41,7 +41,6 @@ public class View
 
     public void initialize () //Metoda e cila thirret per ti caktuar Layout dhe Butonat te cilet i shtojme me von ne JFrame
     {
-        TicTacToeFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         TicTacToeFrame.setSize(450, 300);
         TicTacToeFrame.setResizable(false);  //kjo metod nuk e lejon shfrytezuesin ta ndryshoj madhesin e JFrame
 
